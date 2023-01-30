@@ -1,0 +1,85 @@
+.sidebar2 {
+   background-color: white;
+   border: 1px solid #d9d9d9;
+ border-radius: 14px;
+height: max-content;
+max-height: 600px;
+padding: 0px 25px 7px 20px;
+flex: 0.19;
+
+}
+
+.main__sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.top__section {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 6px;
+   font-weight:  600 !important;
+   font-size: 12px;
+}
+
+.infobtn {
+   margin-right: -20px !important;
+  
+}
+
+
+.css-ja5taz-MuiTooltip-tooltip {
+   border: none !important;
+   background-color: white !important;
+   padding: 10px !important;
+   color: black !important;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.info {
+   display: flex;
+   flex-direction: row;
+   font-size: 15px;
+   word-spacing: 2px;
+}
+
+.info1 p {
+ line-height: 23px;
+}
+.info1  a{
+ color: #0a66c2 !important;
+ margin-left: 2px !important;
+ 
+ 
+}
+
+.info2 {
+  margin-top: -12px;
+ margin-right: -11px;
+}
+
+.bottom__section a {
+ display: flex;
+ margin-top: 12px;
+ color: black !important;
+ gap: 3px;
+ width: max-content;
+ padding: 4px;
+ font-size: 15px;
+ text-decoration: none !important;
+}
+
+.bottom__section a:hover {
+  color: gray !important;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+
+}
+
+.mid__section {
+   display: flex;
+   gap: 8px;
+   flex-direction: column;
+}

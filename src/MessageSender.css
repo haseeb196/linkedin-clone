@@ -1,0 +1,118 @@
+ .messageSender {
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   background-color: white; 
+   border: 1px solid #d9d9d9; 
+   padding: 15px;
+  border-radius: 10px;
+  
+ }
+
+ .messageSender__top {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 5px; 
+   padding: 1px;
+
+ }
+
+
+ .messageSender__top form {
+   display: flex;
+     flex: 1;
+ }
+
+
+ .messageSender__top  form  input {
+   outline-width : 0 !important;
+   border: none !important;
+   padding: 5px 20px;
+   margin: 0px 10px;
+   height: 37px;
+   border-radius: 25px;
+   background-color: #eff2f5;
+   transition: background-color 0.2s ease-in;
+
+ }
+
+
+ .messageSender__top form button {
+  display: none;
+
+ }
+
+ .messageSender__input {
+   flex: 1 1 100%;
+   
+ }
+
+
+.messageSender__top form input:hover {
+   background-color: rgb(226, 226, 226);
+  }
+
+
+
+
+.messageSender__bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 9px;
+  padding-left: 7px;
+}
+
+@media screen and (max-width : 810px){
+   .messageSender__bottom {
+      width: 100%;
+      gap: 10px;
+      justify-content: space-between;
+   }
+
+.messageSender__bottom Button {
+   font-size: 12px !important;
+}
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+   font-size: 13px !important;
+   color: gray !important;
+   font-weight: 600 !important;
+   text-transform: capitalize !important;
+   
+   
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover {
+   background-color: lightgray !important;
+}
+
+.btn1 .MuiSvgIcon-root {
+   color: #368fe9 !important;
+}
+
+.btn2 .MuiSvgIcon-root {
+   color: #5e9b41 !important;
+}
+
+.btn3 .MuiSvgIcon-root {
+ color: #c37d15 !important;
+}
+
+.btn4 .MuiSvgIcon-root {
+   color: #e16745 !important;
+}
+
+.btn1,.btn2,.btn3,.btn4 {
+   font-size: 12px !important;
+}
+
+
+
+
+
+

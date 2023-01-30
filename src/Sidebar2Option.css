@@ -1,0 +1,49 @@
+.sidebar2O {
+ display: flex;
+ flex-direction: row;
+padding-bottom: 2px;
+padding-left: 2px;
+
+}
+
+.sidebar2__Avatar {
+   font-size: 20px !important;
+}
+
+.sidebar2__info {
+   margin-left: 12px !important;
+
+}
+
+.sidebar2__info h3 {
+   font-weight: 610;
+   font-size: 16px;
+   text-transform: capitalize;
+}
+
+.sidebar2__info p {
+   padding-top: 1px;
+   color: gray;
+   font-size: 14px;
+   text-transform: capitalize;
+  overflow-wrap: break-word;
+  word-spacing: 2px;
+ text-overflow: ellipsis;
+}
+
+.sidebar2__infobtn {
+   border: 1px solid black !important;
+  border-radius: 50px !important;
+   margin-top: 9px !important;
+   padding: 4px 7px !important; 
+   font-size: 18px;
+   color: gray !important;
+   transition: background-color 0.2s ease-in-out;
+}
+
+.sidebar2__infobtn:hover {
+  background-color: lightgray;
+  border : 1px solid  hsl(0deg 0% 32%) !important;
+}
+
+

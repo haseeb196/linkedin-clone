@@ -1,0 +1,5 @@
+.first__element {
+   display: flex;
+   width: 300px !important;
+   border: none !important;
+}
