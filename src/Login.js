@@ -22,7 +22,7 @@ const [state, dispatch] = useStateValue();
   return (
     <div className="login">
       <div className="login__logo">
-         <img src="https://brand.linkedin.com/apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/default-share.png" alt="" />
+         <img src="/linkedin-brand.png" alt='' />
       <Button onClick={SignIn} style={{backgroundColor : '#1778F2', color : 'white !important'}}>Sign In</Button>
       </div>
     </div>
